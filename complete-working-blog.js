@@ -18,6 +18,40 @@ class EnhancedBlog {
                 category: "Hayot saboqlari"
             },
 
+            {
+                id: 2,
+                title: "Kompound Effekti",
+                excerpt: "Odatda ko'pchiligimiz olishni xoxlaymiz, lekin berish haqida o'ylaymizmi?",
+                content: `<p><strong>“Murakkab foiz — bu dunyoning sakkizinchi mo‘jizasi. Uni tushungan odam — daromad qiladi, tushunmagan esa — to‘laydi”</strong> deydi Albert Eynshteyn.</p>
+
+<p><strong>Compound interest</strong> (murakkab foizlar), bu qachon siz bir harakatni doimiy qilasiz va u ustma-ust o'sib boradi, buni geometrik o'sish desa ham bo'ladi. Oddiy o'sish quyidagicha bo'ladi: 1, 2, 3, 4, 5 ... va o'sish arifmetik o'sish deyiladi. <strong>Compound</strong> o'sishi esa 1, 2, 4, 8, 16 ... , ya'ni ko'proq foyda ustiga foyda. Agar ikkalasi doimiy holda o'sib borsa, compound interest yuqori natija ko'rsatadi. Natijasi faqat doimiy takrorlanganda ko'rinadi.</p>
+
+<p>Shunga o'xshab bizning ba'zi bir compound interest ga ega bo'lgan ishlarimiz bor, agar compound interestni yaxshilab tushunib, uni amalda doimiy qo'llasak, juda ham kuchli natijalarga olib keladi.</p>
+
+<h3>Compound interest ga ega bo'lgan harakatlar:</h3>
+
+<h4>O'rganish</h4>
+<p>Agar inson doimiy o'rganib borar ekan, uning bilimi plyus "+" kabi qo'shilmaydi, balki karra kabi ko'payadi. Va qachon u bir narsani o'rgansa, qolgan 10 ta narsaga ham aql yetib qoladi. Natijada, qaysi sohani odammi bo'lmasin, u bilan soatlab suhbat qura oladi, chunki unda compoundlashgan bilim bor. Lekin inson bunda to'xtab qolmasligi kerak, chunki to'xtasa pastga qulaydi. Naval Ravikant aytadi: <em>“Agar siz o‘rganmayotgan bo‘lsangiz, demak, yemirilyapsiz.”</em></p>
+
+<h4>Odatlar</h4>
+<p>Hozir qilayotgan har bir ishimiz, kelajakdagi bizdan dalolat beradi. Siz nima qilsangiz, siz o'sha siz (<em>you are what you do</em>). <strong>Atomic Habits</strong> kitobida keltiriladi: <em>“Maqsadingiz qanchalik yuksak bo‘lmasin, siz baribir o‘zingiz yaratgan odatlar va tizimlar darajasida harakat qilasiz.”</em> Agar bizning yomon odatlar doimiy qilinib kelinarkan, hozir natija bermas, lekin 5-10 yilda og'rig'i seziladi. Lekin agar kunda oz bo‘lsa ham 10 bet kitob, 10 daqiqa yozish, 20 daqiqa shug'ullanish, 5$ saqlab qo‘yish, 5 ta so‘z yodlash — 1 yilda natija ko‘rinishni boshlaydi, agar 3-5, mayli deylik 10 yil davom etsa, siz shunchaki ajralib chiqishni boshlaysiz. Bu esa boshqalar erishmagan natijalarga olib keladi. Suv tomib-tomib toshni yoradi dermidi?</p>
+
+<h4>Investitsiya</h4>
+<p>Ko‘pchilik investitsiya deganda faqat treyding yoki kriptani tushunadi. Ha, bu ham compound, lekin natija kafolatlanmagan, shunchaki 50/50. Biz esa o‘ziga investitsiya qilish haqida gaplashamiz. Siz investitsiyani, pullik kurslarga, til o‘rganishga, qimmat kitoblarga, book clublarga, networking meetinglarga, sog‘ligingizga, biznesga (biznes ham 50/50, yutqazsangiz ham kamida tajriba bilan chiqasiz, baribir foyda), va kerakli resurslarga qiling. Bu investitsiya shunaqa natijasini beradiki, shunchaki sizi hali hayolingizga kelmagan bo‘ladi.</p>
+
+<h4>Munosabatlarda</h4>
+<p>Har inson bilan qilayotgan muomalamiz, o‘z natijasini ko‘rsatmay qolmaydi. Siz qo‘lingizdan kelgancha odamlarga yordam berasiz, tabassum qilasiz va qo‘llab-quvvatlaysiz. Kuni kelib, sizga bir ishingizni hal qilish kerak bo‘lib qoladi, sizga tekinga xizmat ko‘rsatishadi, ish taklif qilib qolishadi va umuman hayolingizga kelmagan imkoniyatlar va yo‘llar ochila boshlaydi (<em>buni serendipity deydi</em>). Bir akamizni bilaman, pulsiz biznes boshlagan, sababi networkingi kuchli bo‘lgan. Lekin networking munosabatlarimiz orqali quriladi. Networkingni darajasi va sifati ham bor, shuni unutmaslik kerak.</p>
+
+<h4>Yozish</h4>
+<p>Qisqacha, yozish fikrni tiniq qiladi, doimiy yozib yurgan odam fikrini og‘zaki ravon yetkazadi va aniq fikrlaydi. Yozish sog‘liqqa ham foyda: stressdan olib chiqadi, tinchlantiradi, immunitetni yaxshilaydi va qon bosimini meyorida saqlaydi. Doimiy yozib yurgan odamning xotirasi kuchli bo‘ladi va yozgan bilimi miyyasiga tatuirovka bo‘lib qoladi (<em>writing is a tattoo on your brain</em>). Qisqacha deb, ancha yozvordim a?</p>
+
+<h3>Xulosa</h3>
+<p><strong>Compound interest</strong> odamni muvofaqqiyatga yetaklovchi asosiy omil hisoblanadi. Busiz umuman iloji yo‘q. “Allohga eng mahbub amal — oz bo‘lsa ham, doimiy qilinadigan amal.” (Imom Buxoriy va Muslim rivoyati).</p>
+`,
+                date: "2025-07-30",
+                category: "Shaxsiy Rivojlanish"
+            },
+
         ];
         this.filteredPosts = [...this.posts];
         this.currentPage = 1;
