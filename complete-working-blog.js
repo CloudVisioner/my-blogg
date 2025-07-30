@@ -15,7 +15,7 @@ class EnhancedBlog {
 <p>Endi savol o'zgaradi, manga nima berishdi emas, man nima berdim.</p>
 <p>O'zimizda bor hurmat, obro'-e'tibor, pul, tanishlar, qo'yinki bizda nima bo'lsa, berganimizchalik o'lchab qo'ysak bo'ladi.</p>`,
                 date: "2025-07-30",
-                category: "Hayot saboqlari"
+                category: ""
             },
 
             {
@@ -49,7 +49,7 @@ class EnhancedBlog {
 <p><strong>Compound interest</strong> odamni muvofaqqiyatga yetaklovchi asosiy omil hisoblanadi. Busiz umuman iloji yo‘q. “Allohga eng mahbub amal — oz bo‘lsa ham, doimiy qilinadigan amal.” (Imom Buxoriy va Muslim rivoyati).</p>
 `,
                 date: "2025-07-30",
-                category: "Shaxsiy Rivojlanish"
+                category: ""
             },
 
         ];
